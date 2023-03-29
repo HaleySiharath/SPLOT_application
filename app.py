@@ -11,6 +11,7 @@ from flask_bcrypt import Bcrypt
 import spot
 import sqlalchemy
 
+# just adding something for a test
 
 app = Flask(__name__) #static_url_path='/static' (??) (ignore)
 bcrypt = Bcrypt(app)
